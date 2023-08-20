@@ -10,16 +10,14 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Movie Catalogue</title>
   <link rel="stylesheet" href="layout/Index.css">
-  <link rel="stylesheet" href="layout/App.css">
   <script src="/scripts/App.js"></script>
   <script src="/scripts/movieDetails.js"></script>
-  <script src="index.js"></script>
+  <script src="/index.js"></script>
   <link rel="stylesheet" href="layout/MovieDetails.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<div id="root">
   <header>
     <ul class="menu">
       <li id="logo-menu">MOVIE CATALOGUE</li>
@@ -27,13 +25,55 @@
       <li><a href="/Layout/index.html">NEW MOVIES</a></li>
       <li><a href="/public/index.html">TOP RATED</a></li>
       <li><a href="/public/index.html">MY LIST</a></li>
-      <li id="search"><a href="/search.html">SEARCH</a></li>
+      <li id="search"><a href="/layout/search.html">SEARCH</a></li>
       <!--<li id="search-menu-icon"><a href="search.html"></a><img src="Frame 1.png" alt="search-icon" height="40" width="40"/></li>-->
     </ul>
   </header>
+
+  <h2 id="movie-title">BARBIE (2023)</h2>
+  <div class="movie-trailer">
+    <iframe width="500" height="315"
+            src="https://www.youtube.com/embed/watch?v=pBk4NYhWNMM">
+    </iframe>
+  </div>
   
-<h2 id="movie-title">BARBIE (2023)</h2>
+  <div id="movie-details-wrapper">
+    <table class="movie-details" id="movie-details-table">
+      <tr class="table-row">
+        <th>Genres</th>
+        <th>Runtime</th>
+        <th>IMDb Rating</th>
+      </tr>
+      <tr>
+        <td>Adventure</td>
+        <td>1 t 54 min</td>
+        <td>7.4</td>
+      </tr>
+      <tr>
+        <td>Comedy</td>
+      </tr>
+      <tr>
+      </tr>
+    </table>
+  </div>
+    
+    <!--
+    <ul class="movie-details">
+      <li>Adventure</li>
+      <li>Comedy</li>
+    </ul>
+    <ul class="movie-details">
+      <li>1 t 51 min</li>
+      <li>11 +</li>
+    </ul>
+    <ul class="movie-rating">
+      <li>7.4</li>
+    </ul>
+  </div>-->
   
+<div>
+  <h3 class="summary-heading">Summary</h3>
+  <p class="summary">Barbie suffers a crisis that leads her to question her world and her existence.</p>
 </div>
 </body>
 </html>
