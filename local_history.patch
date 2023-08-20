@@ -1,0 +1,16 @@
+Index: Movie_Catalogue-main/src/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Movie_Catalogue-main/src/index.css b/Movie_Catalogue-main/src/index.css
+--- a/Movie_Catalogue-main/src/index.css	
++++ b/Movie_Catalogue-main/src/index.css	(date 1692477188948)
+@@ -19,6 +19,7 @@
+ 
+ #search-menu-icon {
+   float: right;
++  
+ }
+ 
+ #logo-menu {
