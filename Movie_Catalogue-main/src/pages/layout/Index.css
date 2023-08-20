@@ -5,21 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F5EEDF;
 }
 
 li {
   display: inline-block;
-  padding: 15px;
+  padding: 8px;
+}
+
+h1{
+  margin-left: 45px;
+  font-size: 25px;
 }
 
 header {
-  padding: 3px;
+  padding: 2px;
   font-weight: 800;
+  background-color:#FCD53F;
 }
 
-#search-menu-icon {
+#search {
   float: right;
-  
+  margin-right: 45px;
 }
 
 #logo-menu {

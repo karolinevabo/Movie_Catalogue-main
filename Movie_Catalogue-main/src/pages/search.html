@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+            name="description"
+            content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+    <link rel="stylesheet" href="/pages/Index.css">
+    <script></script>
+    <link rel="stylesheet" href="layout/Search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/search.js"></script>
+</head>
+
+<body>
+<div id="root">
+    <header>
+        <ul class="menu">
+            <li id="logo-menu">MOVIE CATALOGUE</li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html">NEW MOVIES</a></li>
+            <li><a href="index.html">TOP RATED</a></li>
+            <li><a href="index.html">MY LIST</a></li>
+            <li id="search"><a href="search.html">SEARCH</a></li>
+            <!--<li id="search-menu-icon"><a href="search.html"></a><img src="Frame 1.png" alt="search-icon" height="40" width="40"/></li>-->
+        </ul>
+    </header>
+</div>
+
+<div id="search-field">
+    <label for="search-field"></label>
+    <label for="movie_search">
+        <i class="fa fa-search icon"></i>
+        <input type="search" placeholder="Search" id="movie_search" name="search-field">
+    </label>
+</div>
+
+<h2>FILTER SEARCH</h2>
+
+<ul id="filter-buttons-list1">
+    <li><a class="filterButtons" href="#" onclick="return false;">Adventure</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Action</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Comedy</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Drama</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Fantasy</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">History</a></li>
+</ul>
+
+<ul id="filter-buttons-list2">
+    <li><a class="filterButtons" href="#" onclick="return false;">Horror</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Musical</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Romance</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Sci-Fi</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Thriller</a></li>
+    <li><a class="filterButtons" href="#" onclick="return false;">Western</a></li>
+</ul>
+</body>
+</html>
